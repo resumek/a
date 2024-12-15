@@ -1,0 +1,182 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>হোম পেজ</title>
+    <style>
+        /* Global styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #333;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #f7b500;
+            text-decoration: underline;
+        }
+
+        /* Header Section */
+        .header {
+            background: url('https://via.placeholder.com/1920x400') no-repeat center center/cover;
+            height: 400px;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .header h1 {
+            font-size: 50px;
+            margin: 0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .header p {
+            font-size: 20px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+        }
+
+        /* Main content container */
+        .main-content {
+            padding: 50px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        /* Box styling */
+        .box {
+            width: 48%;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .box h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .box p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav {
+                text-align: center;
+            }
+
+            nav a {
+                margin: 10px;
+                font-size: 16px;
+            }
+
+            .header {
+                height: 300px;
+            }
+
+            .header h1 {
+                font-size: 36px;
+            }
+
+            .main-content {
+                flex-direction: column;
+                padding: 20px;
+            }
+
+            .box {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#">হোম</a>
+        <a href="#">আমাদের সম্পর্কে</a>
+        <a href="#">সেবা</a>
+        <a href="#">যোগাযোগ</a>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="header">
+        <h1>স্বাগতম আমাদের ওয়েবসাইটে</h1>
+        <p>আপনার প্রয়োজনীয় তথ্য পেতে আমাদের সাথে থাকুন</p>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="box">
+            <h3>আমাদের সম্পর্কে</h3>
+            <p>আমরা একটি নির্ভরযোগ্য প্রতিষ্ঠান, যা আপনাকে সেরা সেবা প্রদান করে। আমাদের টিম সর্বদা প্রস্তুত আপনার সাহায্য করার জন্য।</p>
+        </div>
+        <div class="box">
+            <h3>সেবা</h3>
+            <p>আমরা আপনাকে আধুনিক এবং উন্নত সেবা প্রদান করি যা আপনার কাজকে সহজ এবং দ্রুত করে তোলে।</p>
+        </div>
+        <div class="box">
+            <h3>যোগাযোগ</h3>
+            <p>যেকোনো সাহায্যের জন্য আমাদের সাথে যোগাযোগ করুন। আমরা আপনার প্রশ্নের উত্তর দিতে সদা প্রস্তুত।</p>
+        </div>
+        <div class="box">
+            <h3>গ্রাহক রিভিউ</h3>
+            <p>আমাদের গ্রাহকরা আমাদের সেবার প্রতি সন্তুষ্ট। তাদের রিভিউ আমাদের জন্য অনুপ্রেরণা।</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 আমাদের ওয়েবসাইট | সকল অধিকার সংরক্ষিত</p>
+    </footer>
+
+</body>
+</html>
